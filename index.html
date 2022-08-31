@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+<div class="contenedor">
+    <h1 class="title is-1">
+        <span id="minutos">00</span>:<span id="segundos">00</span>:<span id="milseg" style="font-size: 30px;">00</span>
+    </h1>
+    <div class="botones">
+        <button class="button is-primary" id="start">Inicio</button>
+        <button class="button is-primary" id="lap">Vuelta</button>
+        <button class="Reset button is-primary" id="reset">Reiniciar</button>
+        <button class="Stop button is-primary" id="stop">Parar</button>
+    </div>
+     <div>
+        <ul class="Lista-de-vueltas">
+             <li><h2 class="subtitle is-5">Tiempo de cada vuelta:</h2></li>
+        </ul>
+    </div>
+</div>  
+<script src="./app.js"></script>
+</body>
+</html>

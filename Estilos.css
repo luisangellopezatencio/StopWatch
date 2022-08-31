@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    margin: 0;
+}
+.contenedor{
+    display: grid;
+    place-items: center;
+}
+.contenedor>h1{
+    margin: 0 auto;
+}
+ul{
+    margin-top: 25px;
+}
+li:first-child{
+    margin-bottom: 10px;
+}
